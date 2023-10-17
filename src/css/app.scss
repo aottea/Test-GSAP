@@ -1,0 +1,36 @@
+@import './utils/reset.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 24px;
+  font-family: 'Arial', 'Helvetica', sans-serif;
+}
+
+.spacer {
+  height: 100vh;
+}
+
+.spacer--animated-element {
+  position: relative;
+  left: -400px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: pink;
+  box-shadow: opx 4px 8px black;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-bottom: 0;
+  font-size: 0.85em;
+  line-height: 1.4em;
+}
